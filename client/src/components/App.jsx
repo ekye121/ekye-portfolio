@@ -4,7 +4,9 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        Edward Kye
+        <h1>
+          EDWARD KYE
+        </h1>
       </div>
     )
   }
