@@ -9,19 +9,12 @@ const About = (props) => {
       <div>
         SOFTWARE ENGINEER BASED IN NYC
       </div>
-      {/* <br/> */}
       <div>
         -
       </div>
       <div>
         MERN/SERN STACK
       </div>
-
-      {/* <div className="viewWork">
-        <a href="#work">
-          V I E W  W O R K
-        </a>
-      </div> */}
     </div>
   )
 }

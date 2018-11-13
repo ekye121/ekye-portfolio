@@ -1,21 +1,14 @@
 html {
   height: 100%;
-  /* box-sizing: border-box; */
 }
 
 body {
-  /* margin: 0; */
-  /* padding: 0; */
-  /* height: 100%; */
-
   font-family: 'made_evolve_sans_evoregular', Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
-  /* color: white; */
 
   position: relative;
   margin: 0;
-  /* padding-bottom: 20rem; */
   min-height: 100%;
 }
 
@@ -24,7 +17,6 @@ h1 {
   font-weight: normal;
   font-style: normal;
   font-size: 50px;
-  /* color: white; */
 }
 
 .nav {
@@ -40,11 +32,7 @@ h1 {
 }
 
 .navItem {
-  /* margin-left: 10px; */
-  /* margin-right: 10px; */
-  /* margin: 15px; */
   margin-left: 30px;
-  /* color: rgb(151, 151, 151); */
 }
 
 .about {
@@ -52,11 +40,6 @@ h1 {
   color: white;
   margin-right: 10%;
   margin-left: 10%;
-  /* position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); */
-  /* background: linear-gradient(to bottom right, rgb(126, 193, 255), rgb(108, 62, 118)); */
 }
 
 .viewWorkButton {
@@ -78,8 +61,6 @@ h1 {
 }
 
 img.resize {
-  /* width: 500px; */
-  /* height: 500px; */
   max-width: 50%;
   max-height: 50%;
 }

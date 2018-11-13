@@ -16,8 +16,7 @@ class App extends React.Component {
       arrowNavigation: true,
       scrollBar: true,
       sectionPaddingTop: '30px',
-      sectionPaddingBottom: '30px',
-      // delay: 2000,
+      sectionPaddingBottom: '30px'
     };
     
     return (
