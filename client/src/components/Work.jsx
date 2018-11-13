@@ -20,10 +20,7 @@ const Work = (props) => {
               RALLY
             </h1>
             <div>
-              {/* <hr/> */}
-              {/* <div>
-                -
-              </div> */}
+              <p>Tech Stack: React, Apollo, Node, Express, GraphQL, Sequelize, PostgreSQL</p>
               <p>
                 Rally is a tennis matchmaking application that utilizes an algorithm based on elo scoring that is as reliable as it is innovative. Our database of New York-area tennis courts allows for the scheduling of matches against skill-appropriate players on both hard-surface and clay courts for players of all levels of experience.
               </p>
@@ -38,12 +35,9 @@ const Work = (props) => {
               STARTup
             </h1>
             <div>
-              {/* <hr/> */}
-              {/* <div>
-                -
-              </div> */}
+              <p>Tech Stack: React, Node, Express, Mongoose, MongoDB</p>
               <p>
-                STARTup is a social website that allows users to find the best learning materials for all things tech. Users can view current top tech news and also checkout the best materials for a specific technology or bootcamp.
+                STARTup is a social website that allows users to find the best learning materials for all things tech. Users can find and add a rating for tech languages, specific content, bootcamps, etc. 
               </p>
               <a href="http://bit.ly/start-up-now" target="_blank">
                 View Site
@@ -56,10 +50,7 @@ const Work = (props) => {
               STUD(y)
             </h1>
             <div>
-              {/* <hr/> */}
-              {/* <div>
-                -
-              </div> */}
+              <p>Tech Stack: React, Node, Express, MySQL</p>
               <p>
                 STUD(y) is an application that allows users to find optimal study locations in close proximity to them. By leveraging crowdsourced user ratings for local cafes, STUD(y) users can indicate their preferences, and STUD(y) will return results that are tailored to that specific user.
               </p>
