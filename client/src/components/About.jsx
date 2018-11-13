@@ -15,6 +15,11 @@ const About = (props) => {
       <div>
         MERN/SERN STACK
       </div>
+      <div className="viewWorkButton">
+        <a href="#work">
+          VIEW WORK
+        </a>
+      </div>
     </div>
   )
 }

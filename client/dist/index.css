@@ -40,11 +40,11 @@ h1 {
   color: white;
   margin-right: 10%;
   margin-left: 10%;
+  padding-top: 150px;
 }
 
 .viewWorkButton {
-  /* text-align: center; */
-  padding-top: 400px;
+  padding-top: 100px;
 }
 
 .work {
@@ -58,6 +58,22 @@ h1 {
 
 .lastWorkSection {
   margin-bottom: 35px;
+}
+
+.viewSiteButtons {
+  border-radius: 100px;
+  border: 0px;
+  color: white;
+  transition: transform .2s;
+  box-shadow: 0px 5px 10px #acacac;
+  background-image: linear-gradient(to right, rgb(202, 164, 238), rgb(255, 137, 137));
+}
+
+.viewSiteButtons:hover {
+  color: white;
+  -ms-transform: scale(1.10);
+  -webkit-transform: scale(1.10);
+  transform: scale(1.10); 
 }
 
 img.resize {

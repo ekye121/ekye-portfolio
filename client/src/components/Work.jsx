@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, Row, Col } from 'react-bootstrap';
+import { Grid, Row, Col, Button } from 'react-bootstrap';
 
 import rallyCards from '../../dist/lib/rallyCards.png';
 import startupCards from '../../dist/lib/startupCards.png';
@@ -16,13 +16,15 @@ const Work = (props) => {
               RALLY
             </h1>
             <div>
-              <p>Tech Stack: React, Apollo, Node, Express, GraphQL, Sequelize, PostgreSQL</p>
+              <p>
+                React / Apollo / Node / Express / GraphQL / Sequelize / PostgreSQL / AWS
+              </p>
               <p>
                 Rally is a tennis matchmaking application that utilizes an algorithm based on elo scoring that is as reliable as it is innovative. Our database of New York-area tennis courts allows for the scheduling of matches against skill-appropriate players on both hard-surface and clay courts for players of all levels of experience.
               </p>
-              <a href="http://bit.ly/rally-me" target="_blank">
+              <Button href="http://bit.ly/rally-me" target="_blank" className="viewSiteButtons">
                 View Site
-              </a>
+              </Button>
             </div>
           </Col>
           <Col xs={ 12 } md={ 12 } className="workMargin">
@@ -31,13 +33,15 @@ const Work = (props) => {
               STARTup
             </h1>
             <div>
-              <p>Tech Stack: React, Node, Express, Mongoose, MongoDB</p>
               <p>
-                STARTup is a social website that allows users to find the best learning materials for all things tech. Users can find and add a rating for tech languages, specific content, bootcamps, etc. 
+                React / Node / Express / Mongoose / MongoDB / Heroku
               </p>
-              <a href="http://bit.ly/start-up-now" target="_blank">
+              <p>
+                STARTup is a crowdsouced, social website that allows users to find the best learning materials for all things tech. Users are able to add ratings for tech languages, specific content, and bootcamps. Users can also find the most current top tech news.
+              </p>
+              <Button href="http://bit.ly/start-up-now" target="_blank" className="viewSiteButtons">
                 View Site
-              </a>
+              </Button>
             </div>
           </Col>
           <Col xs={ 12 } md={ 12 } className="lastWorkSection">
@@ -46,13 +50,15 @@ const Work = (props) => {
               STUD(y)
             </h1>
             <div>
-              <p>Tech Stack: React, Node, Express, MySQL</p>
+              <p>
+                React / Node / Express / MySQL / Heroku
+              </p>
               <p>
                 STUD(y) is an application that allows users to find optimal study locations in close proximity to them. By leveraging crowdsourced user ratings for local cafes, STUD(y) users can indicate their preferences, and STUD(y) will return results that are tailored to that specific user.
               </p>
-              <a href="http://bit.ly/stud-y" target="_blank">
+              <Button href="http://bit.ly/stud-y" target="_blank" className="viewSiteButtons">
                 View Site
-              </a>
+              </Button>
             </div>
           </Col>
         </Row>
