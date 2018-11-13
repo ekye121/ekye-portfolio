@@ -6,10 +6,9 @@ const Contact = (props) => {
       <h1>
         SAY HI.
       </h1>
-      <div>
+      <p>
         ekye0121@gmail.com
-      </div>
-      <br/>
+      </p>
       <a href="https://linkedin.com/in/edwardkye/" target="_blank">
         LINKEDIN
       </a>

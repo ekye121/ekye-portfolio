@@ -1,4 +1,5 @@
 import React from 'react';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const About = (props) => {
   return (
@@ -9,16 +10,17 @@ const About = (props) => {
       <div>
         SOFTWARE ENGINEER BASED IN NYC
       </div>
-      <div>
-        -
-      </div>
+      <div>-</div>
+      {/* <div>
+        I love clean code and designs
+      </div> */}
       <div>
         MERN/SERN STACK
       </div>
       <div className="viewWorkButton">
-        <a href="#work">
+        <AnchorLink href="#work">
           VIEW WORK
-        </a>
+        </AnchorLink>
       </div>
     </div>
   )

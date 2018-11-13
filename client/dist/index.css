@@ -21,13 +21,8 @@ h1 {
 
 .nav {
   position: fixed;
-  /* width: 50%; */
-  /* background-color: lightgrey; */
-  /* background: rgb(255, 0, 0);  */
-  /* background: rgba(167, 167, 167, 0.5); */
   margin-top: 20px;
   margin-bottom: 20px;
-  /* margin-right: 20px; */
   padding-right: 30px;
 }
 
@@ -49,7 +44,6 @@ h1 {
 
 .work {
   text-align: center;
-  /* width: 10%; */
 }
 
 .workMargin {
