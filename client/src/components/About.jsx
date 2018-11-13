@@ -15,7 +15,7 @@ const About = (props) => {
         I love clean code and designs
       </div> */}
       <div>
-        MERN/SERN STACK
+        Currently open to new opportunities
       </div>
       <div className="viewWorkButton">
         <AnchorLink href="#work">
