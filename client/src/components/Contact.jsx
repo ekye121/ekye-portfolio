@@ -2,21 +2,26 @@ import React from 'react';
 
 const Contact = (props) => {
   return (
-    <div className="center">
+    <div className="contact">
       <h1>
-        C O N T A C T
+        SAY HI.
       </h1>
-      {/* <div>
-        SOFTWARE ENGINEER BASED IN NYC
-      </div> */}
-      {/* <br/>
+      {/* <br/> */}
       <div>
-        GITHUB
+        ekye0121@gmail.com
       </div>
       <br/>
-      <div>
+      <a href="https://linkedin.com/in/edwardkye/">
         LINKEDIN
-      </div> */}
+      </a>
+      <br/>
+      <a href="https://github.com/ekye121">
+        GITHUB
+      </a>
+      {/* <br/> */}
+      {/* <a href="">
+        RESUME
+      </a> */}
     </div>
   )
 }

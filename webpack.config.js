@@ -13,10 +13,28 @@ module.exports = {
       {
         test : /\.jsx?/,
         include : SRC_DIR,
+        exclude: /node_modules/,
         loader : 'babel-loader',      
         query: {
           presets: ['react', 'es2015']
         }
+      },
+      {
+        test: /\.(png|jpg|gif)$/,
+        use: [{
+          loader: 'file-loader',
+          options: {
+            outputPath: 'lib/hashedImages'
+          }
+        }]
+      
+      },
+      {
+        test: /\.css$/,
+        use: [
+          { loader: 'style-loader' },
+          { loader: 'css-loader' }
+        ]
       }
     ]
   }

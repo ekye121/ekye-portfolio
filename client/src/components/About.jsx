@@ -9,13 +9,18 @@ const About = (props) => {
       <div>
         SOFTWARE ENGINEER BASED IN NYC
       </div>
-      {/* <br/>
+      {/* <br/> */}
       <div>
-        GITHUB
+        -
       </div>
-      <br/>
       <div>
-        LINKEDIN
+        MERN/SERN STACK
+      </div>
+
+      {/* <div className="viewWork">
+        <a href="#work">
+          V I E W  W O R K
+        </a>
       </div> */}
     </div>
   )

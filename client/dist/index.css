@@ -1,67 +1,3 @@
-h1 {
-  font-family: 'made_evolve_sans_evoregular', Arial, sans-serif;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 50px;
-  /* color: white; */
-}
-
-.center {
-  text-align: center;
-  /* height: 130px;
-  left: 50%;
-  position: absolute;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  width: 200px; */
-}
-
-.about {
-  text-align: center;
-  color: white;
-  margin-right: 20%;
-  margin-left: 20%;
-  /* position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); */
-
-}
-
-/* .navbar {
-  background-color: black;
-  color: white;
-  font-size: 40px;
-  background-color: transparent;
-  background: transparent;
-  border-color: transparent;
-} */
-
-.nav {
-  position: fixed;
-  /* width: 50%; */
-  /* background-color: lightgrey; */
-  /* background: rgb(255, 0, 0);  */
-  background: rgba(167, 167, 167, 0.5);
-  margin-top: 20px;
-  margin-bottom: 20px;
-  /* margin-right: 20px; */
-  padding-right: 30px;
-}
-
-.navItem {
-  /* margin-left: 10px; */
-  /* margin-right: 10px; */
-  /* margin: 15px; */
-  margin-left: 30px;
-  color: rgb(151, 151, 151);
-}
-.navItem:hover {
-  /* text-shadow: 2px 2px 3px black; */
-  text-decoration: none;
-  color: black;
-}
-
 html {
   height: 100%;
   /* box-sizing: border-box; */
@@ -81,4 +17,66 @@ body {
   margin: 0;
   /* padding-bottom: 20rem; */
   min-height: 100%;
+}
+
+h1 {
+  font-family: 'made_evolve_sans_evoregular', Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 50px;
+  /* color: white; */
+}
+
+.nav {
+  position: fixed;
+  /* width: 50%; */
+  /* background-color: lightgrey; */
+  /* background: rgb(255, 0, 0);  */
+  /* background: rgba(167, 167, 167, 0.5); */
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /* margin-right: 20px; */
+  padding-right: 30px;
+}
+
+.navItem {
+  /* margin-left: 10px; */
+  /* margin-right: 10px; */
+  /* margin: 15px; */
+  margin-left: 30px;
+  /* color: rgb(151, 151, 151); */
+}
+
+.about {
+  text-align: center;
+  color: white;
+  margin-right: 10%;
+  margin-left: 10%;
+  /* position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+  /* background: linear-gradient(to bottom right, rgb(126, 193, 255), rgb(108, 62, 118)); */
+}
+
+.viewWork {
+  /* text-align: center; */
+  padding-top: 400px;
+}
+
+.work {
+  text-align: center;
+  /* width: 10%; */
+}
+
+img.resize {
+  max-width: 50%;
+  max-height: 50%;
+}
+
+.contact {
+  text-align: center;
+  color: white;
+  margin-right: 20%;
+  margin-left: 20%;
 }
