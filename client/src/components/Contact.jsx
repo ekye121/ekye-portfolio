@@ -17,7 +17,7 @@ const Contact = (props) => {
         GITHUB
       </a>
       <br/>
-      <a href="https://drive.google.com/file/d/1QCptmDMdKZKfQd2xHmiEFoYfs-9VzMg-/preview" target="_blank">
+      <a href="resume.pdf" target="_blank">
         RESUME
       </a>
     </div>
