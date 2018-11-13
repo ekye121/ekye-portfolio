@@ -59,7 +59,7 @@ h1 {
   /* background: linear-gradient(to bottom right, rgb(126, 193, 255), rgb(108, 62, 118)); */
 }
 
-.viewWork {
+.viewWorkButton {
   /* text-align: center; */
   padding-top: 400px;
 }
@@ -69,7 +69,17 @@ h1 {
   /* width: 10%; */
 }
 
+.workMargin {
+  margin-bottom: 75px
+}
+
+.lastWorkSection {
+  margin-bottom: 35px;
+}
+
 img.resize {
+  /* width: 500px; */
+  /* height: 500px; */
   max-width: 50%;
   max-height: 50%;
 }

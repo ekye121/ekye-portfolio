@@ -11,11 +11,11 @@ const Contact = (props) => {
         ekye0121@gmail.com
       </div>
       <br/>
-      <a href="https://linkedin.com/in/edwardkye/">
+      <a href="https://linkedin.com/in/edwardkye/" target="_blank">
         LINKEDIN
       </a>
       <br/>
-      <a href="https://github.com/ekye121">
+      <a href="https://github.com/ekye121" target="_blank">
         GITHUB
       </a>
       {/* <br/> */}
