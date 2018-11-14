@@ -54,6 +54,10 @@ h1 {
   margin-bottom: 35px;
 }
 
+.techButtons {
+  margin: 20px;
+}
+
 .viewSiteButtons {
   border-radius: 100px;
   border: 0px;

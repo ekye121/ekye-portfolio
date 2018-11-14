@@ -17,7 +17,7 @@ const Work = (props) => {
             </h1>
             <div>
               <p>
-                React / Apollo / Node / Express / GraphQL / Sequelize / PostgreSQL / AWS
+                React &nbsp;/&nbsp; Apollo &nbsp;/&nbsp; Node &nbsp;/&nbsp; Express &nbsp;/&nbsp; GraphQL &nbsp;/&nbsp; Sequelize &nbsp;/&nbsp; PostgreSQL &nbsp;/&nbsp; AWS
               </p>
               <p>
                 Rally is a tennis matchmaking application that utilizes an algorithm based on elo scoring that is as reliable as it is innovative. Our database of New York-area tennis courts allows for the scheduling of matches against skill-appropriate players on both hard-surface and clay courts for players of all levels of experience.
@@ -34,7 +34,7 @@ const Work = (props) => {
             </h1>
             <div>
               <p>
-                React / Node / Express / Mongoose / MongoDB / Heroku
+                React &nbsp;/&nbsp; Node &nbsp;/&nbsp; Express &nbsp;/&nbsp; Mongoose &nbsp;/&nbsp; MongoDB &nbsp;/&nbsp; Heroku
               </p>
               <p>
                 STARTup is a crowdsouced, social website that allows users to find the best learning materials for all things tech. Users are able to add ratings for tech languages, specific content, and bootcamps. Users can also find the most current top tech news.
@@ -51,7 +51,7 @@ const Work = (props) => {
             </h1>
             <div>
               <p>
-                React / Node / Express / MySQL / Heroku
+                React &nbsp;/&nbsp; Node &nbsp;/&nbsp; Express &nbsp;/&nbsp; MySQL &nbsp;/&nbsp; Heroku
               </p>
               <p>
                 STUD(y) is an application that allows users to find optimal study locations in close proximity to them. By leveraging crowdsourced user ratings for local cafes, STUD(y) users can indicate their preferences, and STUD(y) will return results that are tailored to that specific user.

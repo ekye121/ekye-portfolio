@@ -5,17 +5,17 @@ const About = (props) => {
   return (
     <div className="about">
       <h1>
-        E D W A R D . K Y E
+        E D W A R D &nbsp;K Y E 
       </h1>
-      <div>
-        SOFTWARE ENGINEER BASED IN NYC
-      </div>
-      <div>-</div>
+      <h3>
+        SOFTWARE ENGINEER
+      </h3>
+      {/* <div>-</div> */}
       {/* <div>
         I love clean code and designs
       </div> */}
       <div>
-        Currently open to new opportunities
+
       </div>
       <div className="viewWorkButton">
         <AnchorLink href="#work">
