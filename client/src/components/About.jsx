@@ -16,10 +16,10 @@ const About = (props) => {
           </Col>
           <Col xs={ 12 } md={ 4 }>
             <p>
-              I'm a Software Engineer based in NYC. I have built software applications from ideation to deployment in team settings and on my own using agile methodologies. I always think about the bigger picture and the small details that go into coding an application - a great UI/UX, scalability and efficiency on the back-end.
+              I'm a Software Engineer based in NYC. I have built software applications from ideation to deployment in team settings and on my own using agile methodologies. I'm always thinking about the bigger picture and the small details that go into coding an application - UI/UX, scalability and efficiency on the back-end.
             </p>
             <p>
-              I'm interested in self-improvement to become a better coder, and meeting like-minded people.
+              I'm always interested in self-improvement to become a better coder, and meeting like-minded people.
             </p>
             <div>
               A few technologies I'm experienced with:
