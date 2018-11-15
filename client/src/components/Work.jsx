@@ -19,7 +19,7 @@ const Work = (props) => {
               RALLY
             </h1>
             <div>
-              <p>
+              <p className="techFont">
                 React &nbsp;/&nbsp; Apollo &nbsp;/&nbsp; Node &nbsp;/&nbsp; Express &nbsp;/&nbsp; GraphQL &nbsp;/&nbsp; Sequelize &nbsp;/&nbsp; PostgreSQL &nbsp;/&nbsp; AWS
               </p>
               <p>
@@ -39,7 +39,7 @@ const Work = (props) => {
               STARTup
             </h1>
             <div>
-              <p>
+              <p className="techFont">
                 React &nbsp;/&nbsp; Node &nbsp;/&nbsp; Express &nbsp;/&nbsp; Mongoose &nbsp;/&nbsp; MongoDB &nbsp;/&nbsp; Heroku
               </p>
               <p>
@@ -59,7 +59,7 @@ const Work = (props) => {
               STUD(y)
             </h1>
             <div>
-              <p>
+              <p className="techFont">
                 React &nbsp;/&nbsp; Node &nbsp;/&nbsp; Express &nbsp;/&nbsp; MySQL &nbsp;/&nbsp; Heroku
               </p>
               <p>
