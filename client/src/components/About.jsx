@@ -28,13 +28,13 @@ const About = (props) => {
               JavaScript, React, Node, Express, MongoDB, MySQL
             </div>
             <br/>
+            View My Work
             <AnchorLink href="#work">
               {/* <Button className="viewWorkButton">
                 View My Work
               </Button> */}
               <img src={ scrolldown } className="viewWorkButton"/>
             </AnchorLink>
-            {/* View My Work */}
           </Col>
         </Row>
       </Grid>

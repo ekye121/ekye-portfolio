@@ -8,9 +8,10 @@ import studyCards from '../../dist/lib/studyCards.png';
 const Work = (props) => {
   return (
     <div className="work">
-      {/* <h1 className="workMargin">
+      <h1 className="workMargin">
         Things I've Built
-      </h1> */}
+        {/* THINGS I'VE BUILT */}
+      </h1>
       <Grid>
         <Row className="show-grid">
           <Col xs={ 12 } md={ 12 } className="workMargin">
