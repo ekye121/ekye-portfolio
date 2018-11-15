@@ -9,8 +9,7 @@ const Work = (props) => {
   return (
     <div className="work">
       <h1 className="workMargin">
-        Things I've Built
-        {/* THINGS I'VE BUILT */}
+        THINGS I'VE BUILT
       </h1>
       <Grid>
         <Row className="show-grid">
