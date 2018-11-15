@@ -2,6 +2,7 @@ import React from 'react';
 import { SectionsContainer, Section, Header } from 'react-fullpage';
 
 import NavBar from './NavBar.jsx';
+import Home from './Home.jsx';
 import About from './About.jsx';
 import Work from './Work.jsx';
 import Contact from './Contact.jsx';
@@ -10,7 +11,7 @@ class App extends React.Component {
   render() {
     let options = {
       // sectionClassName: 'section',
-      anchors: [ 'about', 'work', 'contact' ],
+      anchors: [ 'home', 'about', 'work', 'contact' ],
       navigation: true,
       verticalAlign: true,
       arrowNavigation: true,
@@ -25,6 +26,9 @@ class App extends React.Component {
           <NavBar />
         </Header>
         <SectionsContainer { ...options }>
+          <Section color="black">
+            <Home />
+          </Section>
           <Section color="black">
             <About />
           </Section>

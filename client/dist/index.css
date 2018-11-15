@@ -19,6 +19,7 @@ h1 {
   font-size: 50px;
 }
 
+/* Nav bar */
 .nav {
   position: fixed;
   margin-top: 20px;
@@ -27,10 +28,11 @@ h1 {
 }
 
 .navItem {
-  margin-left: 30px;
+  margin-left: 25px;
 }
 
-.about {
+/* Home Section */
+.home {
   text-align: center;
   color: white;
   margin-right: 10%;
@@ -38,10 +40,56 @@ h1 {
   padding-top: 150px;
 }
 
-.viewWorkButton {
-  padding-top: 100px;
+.viewAboutButton {
+  margin-top: 100px;
+  transition: transform .2s;
+}
+.viewAboutButton:hover {
+  -ms-transform: scale(1.10);
+  -webkit-transform: scale(1.10);
+  transform: scale(1.10); 
 }
 
+/* About Section */
+.about{
+  color: white;
+  font-size: 15px;
+}
+
+.alignRight {
+  text-align: right;
+}
+
+.techFont {
+  color: #337ab7;
+}
+
+.viewWorkButton {
+  transition: transform .2s;
+  /* margin-right: 10px; */
+  /* border-radius: 100px; */
+  /* border: 0px; */
+  /* background-image: linear-gradient(to right, rgb(202, 164, 238), rgb(255, 137, 137)); */
+  /* text-decoration: none; */
+  /* color: white; */
+}
+.viewWorkButton:hover {
+  /* text-decoration: none;
+  color: white; */
+  -ms-transform: scale(1.10);
+  -webkit-transform: scale(1.10);
+  transform: scale(1.10); 
+}
+/* .viewWorkFont {
+  color: white;
+  text-decoration: none;
+}
+.viewWorkFont:hover {
+  text-decoration: none;
+  color: white;
+} */
+
+/* Work Section */
 .work {
   text-align: center;
 }
@@ -54,10 +102,6 @@ h1 {
   margin-bottom: 35px;
 }
 
-.techButtons {
-  margin: 20px;
-}
-
 .viewSiteButtons {
   border-radius: 100px;
   border: 0px;
@@ -66,7 +110,6 @@ h1 {
   box-shadow: 0px 5px 10px #acacac;
   background-image: linear-gradient(to right, rgb(202, 164, 238), rgb(255, 137, 137));
 }
-
 .viewSiteButtons:hover {
   color: white;
   -ms-transform: scale(1.10);
@@ -79,6 +122,7 @@ img.resize {
   max-height: 50%;
 }
 
+/* Contact Section */
 .contact {
   text-align: center;
   color: white;
