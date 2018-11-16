@@ -5,7 +5,7 @@ import scrolldown from '../../dist/lib/scrolldown.png';
 const Home = (props) => {
   return (
     <div className="home">
-      <h1>
+      <h1 className="name">
         E D W A R D &nbsp;K Y E&nbsp;
       </h1>
       <h3>
