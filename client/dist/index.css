@@ -118,10 +118,15 @@ img.resize {
   max-height: 30%;
 }
 
-.workMargin {
-  margin-bottom: 75px;
+.workHeaderMargin {
+  margin-bottom: 25px;
+  margin-top: 25px;
   /* text-align: right; */
   /* top: -45px; */
+}
+
+.workMargin {
+  margin-bottom: 70px;
 }
 
 /* Contact Section */

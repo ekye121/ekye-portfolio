@@ -8,7 +8,7 @@ import studyCards from '../../dist/lib/studyCards.png';
 const Work = (props) => {
   return (
     <div className="work">
-      <h1 className="workMargin">
+      <h1 className="workHeaderMargin">
         THINGS I'VE BUILT
       </h1>
       <Grid>
