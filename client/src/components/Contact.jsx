@@ -17,9 +17,9 @@ const Contact = (props) => {
         GITHUB
       </a>
       <br/>
-      <a href="resume.pdf" target="_blank">
+      {/* <a href="resume.pdf" target="_blank">
         RESUME
-      </a>
+      </a> */}
     </div>
   )
 }
