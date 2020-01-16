@@ -16,7 +16,7 @@ const About = (props) => {
           </Col>
           <Col xs={ 12 } md={ 4 }>
             <p>
-              I'm a Software Engineer based in NYC. I have built software applications from ideation to deployment in team settings and on my own. I'm always thinking about the bigger picture and the small details when I'm solving problems and coding an application - UI/UX, scalability, efficiency, clean code, code reusability. I enjoy collaborating with like-minded people and believe having an open line of communication is key to building a successful product.
+              I'm a Software Engineer based in NYC. I have built software applications from ideation to deployment in team settings and on my own. I'm always thinking about the bigger picture and the small details when I'm solving problems and coding applications (UI/UX, scalability, efficiency, clean code, code reusability). I enjoy collaborating with like-minded people and believe having an open line of communication is key to building a successful product.
             </p>
             <p>
               The more I learn, solve problems, and build apps, the more interest I gain in coding.
@@ -28,8 +28,8 @@ const About = (props) => {
               JavaScript, React, Node, Express, MongoDB, MySQL
             </div>
             <br/>
-            View My Work
-            <AnchorLink href="#work">
+            See where I work
+            <AnchorLink href="#experience">
               {/* <Button className="viewWorkButton">
                 View My Work
               </Button> */}
