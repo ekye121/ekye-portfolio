@@ -17,9 +17,32 @@ const Contact = (props) => {
         GITHUB
       </a>
       <br/>
-      {/* <a href="resume.pdf" target="_blank">
+      <span className="techFont link" onClick={ props.handleResumeClick }>
         RESUME
-      </a> */}
+      </span>
+      { props.resumeModalToggle ? (
+        <div className="resume-modal">
+          <label className="resume-label">
+            <input
+              className="resume-input"
+              placeholder="Password"
+              type="password"
+              maxLength="20"
+              value={ props.passwordValue }
+              onChange={ props.handleTextChange }
+            />
+            <input
+              className="resume-submit viewSiteButtons"
+              type="submit"
+              value="Submit"
+              onClick={ props.onPasswordSubmit }
+            />
+          </label>
+          <div className="resume-modal-close" onClick={ props.resumeModalClose }></div>
+        </div>
+      ) : (
+        null
+      )}
     </div>
   )
 }
