@@ -48,22 +48,32 @@ class App extends React.Component {
         e.preventDefault();
         document.querySelector('.resume-input').focus();
       } else {
-        this.setState({
-          resumeModalToggle: false,
-          passwordValue: ''
-        });
+        this.resumeModalClose();
       }
     });
 
     window.addEventListener('scroll', () => {
       let contactSection = document.querySelector('#contact').getBoundingClientRect();
       if (contactSection.y > contactSection.height) {
-        this.setState({
-          resumeModalToggle: false,
-          passwordValue: ''
-        });
+        this.resumeModalClose();
       }
     });
+
+    document.body.addEventListener('keydown', (e) => {
+      if (e.target.name === 'pw-input' && e.key === 'Escape' || e.keyCode === 27) {
+        this.resumeModalClose();
+      }
+    });
+
+    let sectionContainer = document.querySelector('.SectionContainer');
+    sectionContainer.style.pointerEvents = 'none';
+    let getResumeModal = setInterval(() => {
+      let resumeModal = document.querySelector('.resume-modal');
+      if (resumeModal) {
+        resumeModal.style.pointerEvents = 'all';
+        clearInterval(getResumeModal);
+      }
+    }, 250);
   };
 
   resumeModalClose() {
@@ -71,12 +81,15 @@ class App extends React.Component {
       resumeModalToggle: false,
       passwordValue: ''
     });
+    let sectionContainer = document.querySelector('.SectionContainer');
+    sectionContainer.style.pointerEvents = 'auto';
   }
 
   onPasswordSubmit() {
     let resumeModal = document.querySelector('.resume-modal');
     let resumeInput = document.querySelector('.resume-input');
     if (this.state.passwordValue === 'hackable') {
+      this.resumeModalClose();
       window.open('resume.pdf', 'Resume');
     } else {
       resumeModal.style.animation = 'shake .20s linear';

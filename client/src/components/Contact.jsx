@@ -6,20 +6,20 @@ const Contact = (props) => {
       <h1>
         LET'S CONNECT.
       </h1>
-      <p>
+      <span>
         ekye0121@gmail.com
-      </p>
-      <a href="https://linkedin.com/in/edwardkye/" target="_blank">
-        LINKEDIN
-      </a>
-      <br/>
-      <a href="https://github.com/ekye121" target="_blank">
-        GITHUB
-      </a>
-      <br/>
-      <span className="techFont link" onClick={ props.handleResumeClick }>
-        RESUME
       </span>
+      <div className="contact-links">
+        <a href="https://linkedin.com/in/edwardkye/" target="_blank">
+          LINKEDIN
+        </a>
+        <a href="https://github.com/ekye121" target="_blank">
+          GITHUB
+        </a>
+        <a className="link" onClick={ props.handleResumeClick }>
+          RESUME
+        </a>
+      </div>
       { props.resumeModalToggle ? (
         <div className="resume-modal">
           <form className="resume-form" onSubmit={ props.onPasswordSubmit }>
