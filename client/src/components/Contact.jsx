@@ -22,10 +22,13 @@ const Contact = (props) => {
       </span>
       { props.resumeModalToggle ? (
         <div className="resume-modal">
-          <label className="resume-label">
+          <form className="resume-form" onSubmit={ props.onPasswordSubmit }>
             <input
+              name="pw-input"
+              data-lpignore="true"
+              autoFocus
               className="resume-input"
-              placeholder="Password"
+              placeholder=" Password"
               type="password"
               maxLength="20"
               value={ props.passwordValue }
@@ -37,7 +40,7 @@ const Contact = (props) => {
               value="Submit"
               onClick={ props.onPasswordSubmit }
             />
-          </label>
+          </form>
           <div className="resume-modal-close" onClick={ props.resumeModalClose }></div>
         </div>
       ) : (
