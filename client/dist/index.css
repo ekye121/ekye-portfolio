@@ -168,8 +168,8 @@ img.resize {
 
 .site-down-modal {
   position: fixed;
-  left: 45%;
-  transform: translate(5%, -65%);
+  left: 50%;
+  transform: translate(-50%, -65%);
   display: flex;
   justify-content: center;
   align-items: center;
