@@ -18,6 +18,7 @@ class App extends React.Component {
     }
   }
 
+  // Contact Section
   componentWillMount () {
     document.addEventListener('keydown', this.handleHitEnter, true);
   }
@@ -103,6 +104,19 @@ class App extends React.Component {
     }
   }
 
+  // Work Section
+  siteDownModal(e) {
+    if (e.target.name === 'view-site') {
+      let modalDiv = document.createElement('div');
+      e.target.parentElement.appendChild(modalDiv);
+      modalDiv.innerText = 'Currently Down';
+      modalDiv.classList.add('site-down-modal');
+      setTimeout(() => {
+        modalDiv.style.display = 'none';
+      }, 2000);
+    }
+  }
+
   render() {
     let options = {
       // sectionClassName: 'section',
@@ -131,7 +145,7 @@ class App extends React.Component {
             <Experience />
           </Section>
           <Section color="white">
-            <Work />
+            <Work siteDownModal={ (e) => this.siteDownModal(e) } />
           </Section>
           <Section color="black">
             <Contact

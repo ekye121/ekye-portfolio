@@ -136,6 +136,7 @@ a:hover {
 }
 
 .viewSiteButtons {
+  padding: 6px 12px;
   border-radius: 100px;
   border: 0px;
   color: white;
@@ -144,7 +145,6 @@ a:hover {
   background-image: linear-gradient(to right, rgb(202, 164, 238), rgb(255, 137, 137));
 }
 .viewSiteButtons:hover {
-  color: white;
   -ms-transform: scale(1.10);
   -webkit-transform: scale(1.10);
   transform: scale(1.10);
@@ -164,6 +164,29 @@ img.resize {
 
 .workMargin {
   margin-bottom: 70px;
+}
+
+.site-down-modal {
+  position: fixed;
+  left: 45%;
+  transform: translate(5%, -65%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+  width: 100px;
+  height: 100px;
+  animation: fade-out .5s ease-in 1.5s forwards;
+}
+
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 /* Contact Section */
@@ -210,6 +233,12 @@ img.resize {
   cursor: pointer;
 }
 
+.resume-modal-close:hover::before {
+  -ms-transform: scale(1.10);
+  -webkit-transform: scale(1.10);
+  transform: scale(1.10);
+}
+
 .resume-form {
   height: 100px;
   display: flex;
@@ -230,7 +259,7 @@ img.resize {
   padding: 6px 12px;
 }
 
-button, input[type="submit"], input[type="text"], input[type="password"], textarea, select {
+button, button[type="button"], input[type="submit"], input[type="text"], input[type="password"], textarea, select {
   outline: none;
 }
 

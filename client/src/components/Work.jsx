@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, Row, Col, Button } from 'react-bootstrap';
+import { Grid, Row, Col, button } from 'react-bootstrap';
 
 import rallyCards from '../../dist/lib/rallyCards.png';
 import startupCards from '../../dist/lib/startupCards.png';
@@ -18,16 +18,16 @@ const Work = (props) => {
             <h1>
               RALLY
             </h1>
-            <div>
+            <div className="work-section">
               <p className="techFont">
                 React &nbsp;/&nbsp; Apollo &nbsp;/&nbsp; Node &nbsp;/&nbsp; Express &nbsp;/&nbsp; GraphQL &nbsp;/&nbsp; Sequelize &nbsp;/&nbsp; PostgreSQL &nbsp;/&nbsp; AWS
               </p>
               <p>
                 Rally is a tennis matchmaking application that utilizes an algorithm based on elo scoring that is as reliable as it is innovative. Our database of New York-area tennis courts allows for the scheduling of matches against skill-appropriate players on both hard-surface and clay courts for players of all levels of experience.
               </p>
-              <Button href="http://bit.ly/rally-me" target="_blank" className="viewSiteButtons">
+              <button /*href="http://bit.ly/rally-me"*/ name="view-site" onClick={ props.siteDownModal } target="_blank" className="viewSiteButtons">
                 View Site
-              </Button>
+              </button>
             </div>
           </Col>
         {/* </Row> */}
@@ -38,16 +38,16 @@ const Work = (props) => {
             <h1>
               STARTup
             </h1>
-            <div>
+            <div className="work-section">
               <p className="techFont">
                 React &nbsp;/&nbsp; Node &nbsp;/&nbsp; Express &nbsp;/&nbsp; Mongoose &nbsp;/&nbsp; MongoDB &nbsp;/&nbsp; Heroku
               </p>
               <p>
                 STARTup is a crowdsouced, social website that allows users to find the best learning materials for all things tech. Users are able to add ratings for tech languages, specific content, and bootcamps. Users can also find the most current top tech news.
               </p>
-              <Button href="http://bit.ly/start-up-now" target="_blank" className="viewSiteButtons">
+              <button /*href="http://bit.ly/start-up-now"*/ name="view-site" onClick={ props.siteDownModal } target="_blank" className="viewSiteButtons">
                 View Site
-              </Button>
+              </button>
             </div>
           </Col>
         {/* </Row> */}
@@ -58,16 +58,16 @@ const Work = (props) => {
             <h1>
               STUD(y)
             </h1>
-            <div>
+            <div className="work-section">
               <p className="techFont">
                 React &nbsp;/&nbsp; Node &nbsp;/&nbsp; Express &nbsp;/&nbsp; MySQL &nbsp;/&nbsp; Heroku
               </p>
               <p>
                 STUD(y) is an application that allows users to find optimal study locations in close proximity to them. By leveraging crowdsourced user ratings for local cafes, users can indicate their preferences, and STUD(y) will return results that are tailored to that specific user.
               </p>
-              <Button href="http://bit.ly/stud-y" target="_blank" className="viewSiteButtons">
+              <button /*href="http://bit.ly/stud-y"*/ name="view-site" onClick={ props.siteDownModal } target="_blank" className="viewSiteButtons">
                 View Site
-              </Button>
+              </button>
             </div>
           </Col>
         </Row>
