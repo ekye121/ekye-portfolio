@@ -44,19 +44,33 @@ const Experience = (props) => {
               <h3>
                 <span
                   className="experience-timeline active"
+                  onClick={ (e) => renderExperience('pubnative', e) }
+                >
+                  February 2020 - Current
+                </span>
+              </h3>
+              <h3>
+                <span
+                  className="experience-timeline"
                   onClick={ (e) => renderExperience('verve', e) }
                 >
-                  January 2019 - Current
+                  January 2019 - January 2020
                 </span>
               </h3>
             </div>
           </Col>
           <Col xs={ 12 } md={ 4 }>
             <div className="experiences">
-              <div className="verve experiences-description active">
+              <div className="pubnative experiences-description active">
+                <h3>Software Engineer @ PubNative</h3>
+                <p>
+                  Mobile publisher platform and programmatic ad exchange.
+                </p>
+              </div>
+              <div className="verve experiences-description">
                 <h3>Software Engineer @ Verve</h3>
                 <p>
-                  Verve is a location-powered mobile marketing platform that connects advertisers with consumers.
+                  Location-powered mobile marketing platform that connects advertisers with consumers.
                 </p>
               </div>
             </div>

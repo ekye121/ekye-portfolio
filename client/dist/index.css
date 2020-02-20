@@ -118,6 +118,7 @@ a:hover {
 .experience-timeline.active {
   font-weight: bolder;
   color: #fff;
+  text-decoration: underline;
 }
 
 .scroll-to-work {
