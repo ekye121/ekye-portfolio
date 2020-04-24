@@ -44,9 +44,17 @@ const Experience = (props) => {
               <h3>
                 <span
                   className="experience-timeline active"
+                  onClick={ (e) => renderExperience('current', e) }
+                >
+                  Present
+                </span>
+              </h3>
+              <h3>
+                <span
+                  className="experience-timeline"
                   onClick={ (e) => renderExperience('pubnative', e) }
                 >
-                  February 2020 - Current
+                  February 2020 - April 2020
                 </span>
               </h3>
               <h3>
@@ -61,7 +69,10 @@ const Experience = (props) => {
           </Col>
           <Col xs={ 12 } md={ 4 }>
             <div className="experiences">
-              <div className="pubnative experiences-description active">
+              <div className="current experiences-description active">
+                <h3>Open to new opportunities</h3>
+              </div>
+              <div className="pubnative experiences-description">
                 <h3>Software Engineer @ PubNative</h3>
                 <p>
                   Mobile publisher platform and programmatic ad exchange.
