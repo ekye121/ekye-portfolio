@@ -14,13 +14,13 @@ const renderExperience = (exp, e) => {
       clickedExp = document.querySelector(`.${exp}`);
       setTimeout(() => {
         if (clickedExp) {
-          clickedExp.style.opacity = '1';
+          clickedExp.style.animation = 'fade-in .4s ease-out forwards';
           if (clickedExp.getBoundingClientRect().height > 200)
           scrollToWork.style.top = `${clickedExp.getBoundingClientRect().height + 5}px`;
         }
       }, 50);
     } else {
-      experience.style.opacity = '0';
+      experience.style.animation = 'fade-out .4s ease-in forwards';
     }
   });
 
