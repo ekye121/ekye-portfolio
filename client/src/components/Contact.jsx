@@ -4,7 +4,7 @@ const Contact = (props) => {
   return (
     <div className="contact">
       <h1>
-        LET'S CONNECT.
+        LET'S CONNECT
       </h1>
       <span>
         ekye0121@gmail.com

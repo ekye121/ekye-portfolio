@@ -13,7 +13,16 @@ body {
   min-height: 100%;
 }
 
+a {
+  color: #2f98f3;
+}
 a:hover {
+  text-decoration: none;
+  color: #2f98f3;
+}
+a:focus {
+  outline: 0; 
+  color: #2f98f3;
   text-decoration: none;
 }
 
@@ -67,7 +76,7 @@ a:hover {
 }
 
 .techFont {
-  color: #337ab7;
+  color: #2f98f3;
 }
 
 .anchor-link-exp {
@@ -88,15 +97,15 @@ a:hover {
   position: absolute;
   top: 0;
   left: 0;
-  opacity: 0;
+  animation: fade-out .4s ease-in forwards;
 }
 .experiences-description.active {
-  opacity: 1;
+  animation: fade-in .4s ease-out forwards;
 }
 
 .experience-timeline {
   cursor: pointer;
-  color: #337ab7;
+  color: #2f98f3;
   font-weight: normal;
 }
 .experience-timeline.active {
@@ -177,6 +186,14 @@ img.resize {
     opacity: 0;
   }
 }
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
 /* Contact Section */
 .contact {
@@ -254,7 +271,7 @@ button, button[type="button"], input[type="submit"], input[type="text"], input[t
 
 .link:hover {
   cursor: pointer;
-  color: #28557c;
+  color: #2f98f3;
 }
 
 @keyframes shake {
