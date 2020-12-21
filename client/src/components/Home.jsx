@@ -11,11 +11,9 @@ const Home = (props) => {
       <h3>
         SOFTWARE ENGINEER
       </h3>
-      <div>
-        <AnchorLink href="#about">
-          <img src={ scrolldown } className="viewAboutButton"/>
-        </AnchorLink>
-      </div>
+      <AnchorLink href="#about" className="anchor-link-about">
+        <img src={ scrolldown } className="scroll-button"/>
+      </AnchorLink>
     </div>
   )
 }

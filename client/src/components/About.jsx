@@ -28,12 +28,9 @@ const About = (props) => {
               JavaScript, React, Node, Express, MongoDB, MySQL
             </div>
             <br/>
-            See where I work
-            <AnchorLink href="#experience">
-              {/* <Button className="viewWorkButton">
-                View My Work
-              </Button> */}
-              <img src={ scrolldown } className="viewWorkButton"/>
+            <span>See where I work</span>
+            <AnchorLink href="#experience" className="anchor-link-exp">
+              <img src={ scrolldown } className="scroll-button"/>
             </AnchorLink>
           </Col>
         </Row>

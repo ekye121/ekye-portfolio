@@ -76,12 +76,9 @@ const Experience = (props) => {
             </div>
             <br/>
             <div className="scroll-to-work">
-              View My Work
-              <AnchorLink href="#work">
-                {/* <Button className="viewWorkButton">
-                  View My Work
-                </Button> */}
-                <img src={ scrolldown } className="viewWorkButton"/>
+              <span>View My Work</span>
+              <AnchorLink href="#work" className="anchor-link-work">
+                <img src={ scrolldown } className="scroll-button"/>
               </AnchorLink>
             </div>
           </Col>
