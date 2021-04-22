@@ -14,7 +14,24 @@ const Work = (props) => {
       <Grid>
         <Row className="show-grid">
           <Col xs={ 12 } md={ 12 } className="workMargin">
-            <img src={ rallyCards } className="resize"/>
+            <h1>
+              20 20 20
+            </h1>
+            <div className="work-section">
+              <p className="techFont">
+                JavaScript &nbsp;/&nbsp; React Hooks &nbsp;/&nbsp; CSS &nbsp;/&nbsp; Heroku
+              </p>
+              <p>
+                20 20 20 is an application to reduce eye strain. Every 20 minutes the user looks 20 feet away for 20 seconds.
+              </p>
+              <a href="http://bit.ly/e202020" target="_blank">
+                <button name="view-site" className="viewSiteButtons">View Site</button>
+              </a>
+            </div>
+          </Col>
+
+          <Col xs={ 12 } md={ 12 } className="workMargin">
+            {/* <img src={ rallyCards } className="resize"/> */}
             <h1>
               RALLY
             </h1>
@@ -34,7 +51,7 @@ const Work = (props) => {
 
         {/* <Row className="show-grid"> */}
           <Col xs={ 12 } md={ 12 } className="workMargin">
-            <img src={ startupCards } className="resize"/>
+            {/* <img src={ startupCards } className="resize"/> */}
             <h1>
               STARTup
             </h1>
@@ -54,7 +71,7 @@ const Work = (props) => {
 
         {/* <Row className="show-grid"> */}
           <Col xs={ 12 } md={ 12 } className="lastWorkSection">
-            <img src={ studyCards } className="resize"/>
+            {/* <img src={ studyCards } className="resize"/> */}
             <h1>
               STUD(y)
             </h1>
