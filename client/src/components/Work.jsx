@@ -19,8 +19,8 @@ const Work = (props) => {
 								&nbsp;/&nbsp; Firebase
 							</p>
 							<p>
-								Newmoto is an app to track your motorcycle journey for new and
-								experienced riders.
+								Newmoto is a web application to track your motorcycle journey
+								for new and experienced riders.
 							</p>
 							<a href="http://bit.ly/-newmoto" target="_blank">
 								<button name="view-site" className="viewSiteButtons">
